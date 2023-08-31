@@ -494,9 +494,7 @@ body .theme-button-one:hover {background:#151515; }
   color: #bbbbbb;
 }
 
-.about-compnay .theme-title-one .title:before {
-  left: 48%;
-}
+
 
 .about-compnay .text-wrapper .theme-button-one {margin-top: 30px;}
 .about-compnay .image-wrapper {height: 891px;}
@@ -768,11 +766,16 @@ body .theme-button-one:hover {background:#151515; }
   text-align: center;
   opacity: 0;
   transform:scale(0.5);
+  background-color: #17758d !important;
 }
 .latest-project .single-block:hover .overlay {
   opacity: 1;
   transform:scale(1);
 }
+
+
+
+
 .latest-project .single-block .overlay>div {
   position: relative;
   top:50%;
@@ -1146,6 +1149,9 @@ body .theme-button-one:hover {background:#151515; }
 .feature-work-two .single-feature.color-fix a {color: #333333;}
 .feature-work-two .single-feature.color-fix p {color: #777777;}
 .feature-work-two .single-feature.bg-color p {color: #ffffff;}
+.feature-work-two .single-feature.bg-color{
+  background-color: #17758d !important;
+}
 /*--------------------- Quote Banner -----------------*/
 .quote-banner {
   background: url(../images/img/Amit\ group.png) no-repeat center;
